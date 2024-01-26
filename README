@@ -1,1 +1,6 @@
-This code is stolen and lightly rewritten from the DrWatson project. I will add the proper attributions ASAP.
+This code is stolen and lightly rewritten from the DrWatson project. I will add
+the proper attributions ASAP.
+
+Ideally this package does not need to exist, I hope this can be upstreamed into
+JuliaDynamic's DrWatson, see:
+https://github.com/JuliaDynamics/DrWatson.jl/issues/402
