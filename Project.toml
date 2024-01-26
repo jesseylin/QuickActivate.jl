@@ -1,0 +1,4 @@
+name = "QuickActivate"
+uuid = "8757bc4d-4e84-427d-9d20-3ca0eb2b495a"
+authors = ["Jesse Young Lin <jesseyounglin@gmail.com>"]
+version = "0.1.0"
