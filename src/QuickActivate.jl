@@ -37,8 +37,14 @@ function quickactivate(path)
             return nothing
         end
 
-        import Pkg
-        Pkg.activate(projectpath)
+        if !@isdefined Pkg
+            # this branch is primarily a hack to deal with Pluto's detection of
+            # clashing names
+            import Pkg as _Pkg
+            _Pkg.activate(projectpath)
+        else
+            Pkg.activate(projectpath)
+        end
     end
 end
 
